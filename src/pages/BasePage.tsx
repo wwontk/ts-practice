@@ -3,6 +3,7 @@ import React from 'react';
 import Clock from './2-4/Clock';
 import Composition from './2-5/Composition';
 import Extraction from './2-5/Extraction';
+import ClassClock from './2-6/ClassClock';
 
 function BasePage() {
   const comment = {
@@ -17,8 +18,9 @@ function BasePage() {
     <>
       <div>Hello React</div>
       {/* <Clock /> */}
-      <Composition name="sara" />
-      <Extraction avatarUrl={comment.author.avatarUrl} name={comment.author.name} text={comment.text} date={comment.date} />
+      {/* <Composition name="sara" />
+      <Extraction avatarUrl={comment.author.avatarUrl} name={comment.author.name} text={comment.text} date={comment.date} /> */}
+      <ClassClock />
     </>
   );
 }
