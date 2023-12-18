@@ -11,7 +11,7 @@ export default class ClassClock extends React.Component {
         console.log('componentDidMount');
         this.timerID = setInterval(
             () => this.tick(),
-            10000
+            1000
         );
     }
   
