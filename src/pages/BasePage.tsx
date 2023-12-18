@@ -5,6 +5,7 @@ import Composition from './2-5/Composition';
 import Extraction from './2-5/Extraction';
 import ClassClock from './2-6/ClassClock';
 import Event from './2-7/Event';
+import Greeting from './2-8/Greeting';
 
 function BasePage() {
   const comment = {
@@ -18,11 +19,7 @@ function BasePage() {
   return (
     <>
       <div>Hello React</div>
-      {/* <Clock /> */}
-      {/* <Composition name="sara" />
-      <Extraction avatarUrl={comment.author.avatarUrl} name={comment.author.name} text={comment.text} date={comment.date} /> */}
-      {/* <ClassClock /> */}
-      <Event />
+      <Greeting />
     </> 
   );
 }
