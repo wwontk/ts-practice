@@ -7,8 +7,9 @@ import React from 'react';
 // import Event from './2-7/Event';
 // import Greeting from './2-8/Greeting';
 // import List from './2-9/List';
-import Controlled from './2-10/Controlled';
-import UnControlled from './2-10/UnControlled';
+// import Controlled from './2-10/Controlled';
+// import UnControlled from './2-10/UnControlled';
+import Calculator from './2-11/Calculator';
 
 
 function BasePage() {
@@ -23,8 +24,9 @@ function BasePage() {
   return (
     <>
       <div>Hello React</div>
-      <Controlled />
-      <UnControlled />
+      {/* <Controlled /> */}
+      {/* <UnControlled /> */}
+      <Calculator />
     </> 
   );
 }
