@@ -9,7 +9,9 @@ import React from 'react';
 // import List from './2-9/List';
 // import Controlled from './2-10/Controlled';
 // import UnControlled from './2-10/UnControlled';
-import Calculator from './2-11/Calculator';
+// import Calculator from './2-11/Calculator';
+import { Composite } from './2-12/Composite';
+import { Specialize } from './2-12/Specialize';
 
 
 function BasePage() {
@@ -26,7 +28,9 @@ function BasePage() {
       <div>Hello React</div>
       {/* <Controlled /> */}
       {/* <UnControlled /> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      <Composite />
+      <Specialize />
     </> 
   );
 }
