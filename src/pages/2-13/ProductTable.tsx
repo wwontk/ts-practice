@@ -37,10 +37,11 @@ export function ProductTable (props: IProductTableProps) {
         })
     }
 
+    getCategory();
 
-    React.useEffect(()=>{
-        getCategory();
-    },[]);
+    // React.useEffect(()=>{
+    //     getCategory();
+    // },[]);
 
     return (
         <table>
