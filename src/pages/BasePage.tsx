@@ -10,8 +10,9 @@ import React from 'react';
 // import Controlled from './2-10/Controlled';
 // import UnControlled from './2-10/UnControlled';
 // import Calculator from './2-11/Calculator';
-import { Composite } from './2-12/Composite';
-import { Specialize } from './2-12/Specialize';
+// import { Composite } from './2-12/Composite';
+// import { Specialize } from './2-12/Specialize';
+import { FilterableProductTable } from './2-13/FilterableProductTable';
 
 
 function BasePage() {
@@ -26,11 +27,7 @@ function BasePage() {
   return (
     <>
       <div>Hello React</div>
-      {/* <Controlled /> */}
-      {/* <UnControlled /> */}
-      {/* <Calculator /> */}
-      <Composite />
-      <Specialize />
+      <FilterableProductTable />
     </> 
   );
 }
